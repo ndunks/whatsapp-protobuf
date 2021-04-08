@@ -21,8 +21,6 @@ PROTO_FILE="whatsapp.proto"
 protoc \
     --plugin="protoc-gen-ts=${PROTOC_GEN_TS_PATH}" \
     --ts_out="${OUT_DIR}" \
-    --js_out="import_style=commonjs,binary:${OUT_DIR}" \
     $PROTO_FILE
 
-mv -f whatsapp_pb.js index.js
 mv -f whatsapp.ts index.ts
