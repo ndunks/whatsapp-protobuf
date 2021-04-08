@@ -2,6 +2,10 @@
   "name": "whatsapp-protobuf",
   "version": "1.0.0",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "index.ts"
+  ],
   "license": "MIT",
   "dependencies": {
     "google-protobuf": "^3.16.0-rc.1"
