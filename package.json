@@ -2,6 +2,10 @@
   "name": "whatsapp-protobuf",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ndunks/whatsapp-protobuf.git"
+  },
   "files": [
     "index.js",
     "index.ts"
