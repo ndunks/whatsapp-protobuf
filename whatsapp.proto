@@ -122,7 +122,7 @@ message ImageMessage {
     optional uint32 firstScanLength = 19;
     optional uint32 experimentGroupId = 20;
     optional bytes scansSidecar = 21;
-    repeated uint32 scanLengths = 22;
+    repeated uint32 scanLengths = 22 [packed=false];
     optional bytes midQualityFileSha256 = 23;
     optional bytes midQualityFileEncSha256 = 24;
 }

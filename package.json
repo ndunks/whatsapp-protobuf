@@ -12,7 +12,8 @@
   ],
   "scripts": {
     "prebuild": "./build.sh",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "node test/test.js"
   },
   "license": "MIT",
   "dependencies": {
