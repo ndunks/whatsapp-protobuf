@@ -25,28 +25,10 @@ repeated uint32 scanLengths = 22 [packed=false];
 and also I modified generated ts file manually, because `protoc-gen-ts` 
 has problem dealing with `repeated integer fields` on protobuf version 2.
 this the patch:
-``` patch
-diff --git a/index.ts b/index.ts
-index 676f7c0..ce61387 100644
---- a/index.ts
-+++ b/index.ts
-@@ -1302,6 +1302,9 @@ export class ImageMessage extends pb_1.Message {
-     set midQualityFileEncSha256(value: Uint8Array) {
-         pb_1.Message.setField(this, 24, value);
-     }
-+    addScanLengths(value: number, index?: number) {
-+        pb_1.Message.addToRepeatedField(this, 22, value, index);
-+    }
-     toObject() {
-         return {
-             url: this.url,
-@@ -1436,7 +1439,7 @@ export class ImageMessage extends pb_1.Message {
-                     message.scansSidecar = reader.readBytes();
-                     break;
-                 case 22:
--                    message.scanLengths = reader.readPackedUint32();
-+                    message.addScanLengths(reader.readUint32());
-                     break;
-                 case 23:
-                     message.midQualityFileSha256 = reader.readBytes();
+``` 
+# REPLACE
+message.scanLengths = reader.readUint32();
+# WITH
+pb_1.Message.addToRepeatedField(message, 22, reader.readUint32());
 ```
+I have replaced it in `build.sh` using sed.

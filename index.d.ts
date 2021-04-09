@@ -386,7 +386,6 @@ export declare class ImageMessage extends pb_1.Message {
     set midQualityFileSha256(value: Uint8Array);
     get midQualityFileEncSha256(): Uint8Array;
     set midQualityFileEncSha256(value: Uint8Array);
-    addScanLengths(value: number, index?: number): void;
     toObject(): any;
     serialize(w?: pb_1.BinaryWriter): Uint8Array | undefined;
     serializeBinary(): Uint8Array;

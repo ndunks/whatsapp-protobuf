@@ -24,3 +24,6 @@ protoc \
     $PROTO_FILE
 
 mv -f whatsapp.ts index.ts
+sed -i \
+    's/message.scanLengths = reader.readUint32();/pb_1.Message.addToRepeatedField(message, 22, reader.readUint32());/' \
+    index.ts

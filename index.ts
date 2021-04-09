@@ -1302,9 +1302,6 @@ export class ImageMessage extends pb_1.Message {
     set midQualityFileEncSha256(value: Uint8Array) {
         pb_1.Message.setField(this, 24, value);
     }
-    addScanLengths(value: number, index?: number) {
-        pb_1.Message.addToRepeatedField(this, 22, value, index);
-    }
     toObject() {
         return {
             url: this.url,
@@ -1439,7 +1436,7 @@ export class ImageMessage extends pb_1.Message {
                     message.scansSidecar = reader.readBytes();
                     break;
                 case 22:
-                    message.addScanLengths(reader.readUint32());
+                    pb_1.Message.addToRepeatedField(message, 22, reader.readUint32());
                     break;
                 case 23:
                     message.midQualityFileSha256 = reader.readBytes();
