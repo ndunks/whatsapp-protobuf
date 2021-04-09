@@ -1,0 +1,35 @@
+{
+    "key": {
+        "remotejid": "6282313439393@s.whatsapp.net",
+        "fromme": false,
+        "id": "3AA58B0A0F705D8CCCA6"
+    },
+    "message": {
+        "imagemessage": {
+            "url": "https://mmg-fna.whatsapp.net/d/f/Ao80b2eZH8ojxMdwrIs2z2LCjMrIHaMSiNkdfJXe1Pjs.enc",
+            "mimetype": "image/jpeg",
+            "filesha256": "f3kSeKJRPMzdJB3O5mIUoO6ksc+AWgkr/MEX/oughRg=",
+            "filelength": 54273,
+            "height": 1280,
+            "width": 720,
+            "mediakey": "2Zi9QRiOGEXTTc/xVA/JdI69YvalKVlGVcGJg7GJlHk=",
+            "fileencsha256": "dsxTbTV/8rUm3DcahCQX5H6RtHUozeAZoDJaKe91M+g=",
+            "interactiveannotationsList": [],
+            "directpath": "/v/t62.7118-24/30700648_162597741921056_3626929083536280351_n.enc?oh=7334bed5e8336c462d00040d32dd243c&oe=C0ABF98A",
+            "mediakeytimestamp": 1588929829,
+            "jpegthumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wgARCABIACkDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAQBBQYDAv/EABcBAQEBAQAAAAAAAAAAAAAAAAACAQP/2gAMAwEAAhADEAAAAKmW+hXzYBXS6kahxNqpYnn7muGR12RNK4q+RIC+R12RLmK46c7KK6dy0o2V46eYCdACZA//xAAdEQACAgEFAAAAAAAAAAAAAAABAgAQIRESIDFR/9oACAECAQE/ALHV62rKBkTcnkYgnHD/xAAdEQACAgEFAAAAAAAAAAAAAAABAgAQIRESIDFR/9oACAEDAQE/ALPd6WysTgza3sUEDPD/xAAsEAABAgMGBQQDAQAAAAAAAAABAAIDBBEFEBUhUnESFDE0kRNRU2EgNUGB/9oACAEBAAE/AKBUC/y6gugWVMzEMRIYBaVgc5pHlYHO6R5WBzukeVEsabhQy9wFB1zXpn3Vlkiz2U91DJDv6ULp/s4u11l/r4e6Di12SDnkVACFaZ9VP9nF2ushvFIM3XpEGoIQ6Z3T/ZxdrrF7Bn4T/ZxdroE+ZKz4VG14isefoCxx/DXgasefoCbaTpyBGYWgUbW5k3EbDEOjS0dKhc2/Qzwubf8AGzwubf8AGzwuciBjmtDWhwoaC6udwOX2q5far0VV//4AAwD/2Q==",
+            "firstscansidecar": "KG1jphz2HBTLjg==",
+            "firstscanlength": 5453,
+            "scanssidecar": "KG1jphz2HBTLjg==",
+            "scanlengthsList": [
+                5453
+            ],
+            "midqualityfilesha256": "",
+            "midqualityfileencsha256": ""
+        }
+    },
+    "messagetimestamp": 1588929831,
+    "mediaciphertextsha256": "",
+    "messagestubparametersList": [],
+    "labelsList": []
+}
